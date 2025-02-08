@@ -16,7 +16,7 @@ Per utilizzare il progetto, seguire questi passaggi:
 2.  Avviare lo script `python main.py`
 3.  Visionare il risultato nella cartella "adesivi_output"
 
-![esempio adesivo](docs/image.png)
+<img src="docs/image.png" alt="esempio adesivo" width="200"/>
 
 ## Contributi
 Accogliamo con favore i contributi! Per contribuire, seguire questi passaggi:
