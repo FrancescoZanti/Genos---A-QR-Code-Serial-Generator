@@ -1,5 +1,7 @@
 ## Genos-A-QR-Code-Serial-Generator 
 
+[![Image CI](https://github.com/FrancescoZanti/Genos---A-QR-Code-Serial-Generator/actions/workflows/docker-image.yml/badge.svg)](https://github.com/FrancescoZanti/Genos---A-QR-Code-Serial-Generator/actions/workflows/docker-image.yml)
+
 ### Panoramica
 Questo progetto è stato realizzato per automatizzare la creazione di adesivi con QR Code differenti. 
 Il template dell'adesivo è customizzabile; è possibile compilare il file seriali.txt con un valore differente per ogni QR Code.
