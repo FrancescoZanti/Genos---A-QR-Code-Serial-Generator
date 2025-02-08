@@ -20,7 +20,8 @@ Per utilizzare il progetto, seguire questi passaggi:
 <img src="docs/adesivo_a6.png" alt="esempio adesivo" width="200"/>
 <figcaption> Esempio adesivo A6 </figcaption>
 </figure>
-<br>
+<br><br>
+<br><br>
 <figure>
 <img src="docs/adesivi_a4.png" alt="esempio adesivo" width="200"/>
 <figcaption> Esempio adesivo A4 preformato </figcaption>
