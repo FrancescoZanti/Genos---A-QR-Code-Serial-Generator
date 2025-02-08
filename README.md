@@ -18,6 +18,29 @@ Per utilizzare il progetto, seguire questi passaggi:
 
 <img src="docs/image.png" alt="esempio adesivo" width="200"/>
 
+## Utilizzo con Podman
+
+Prima creare l'immagine:
+
+````bash
+
+podman build -f Containerfile -t genos:latest
+
+````
+
+Successivamente avviare il container e attendere l'esecuzione
+
+````bash
+
+podman run --rm  -v $(pwd)/adesivi_output/:/app/adesivi_output:Z -v $(pwd)/seriali.txt:/app/seriali.txt:Z genos:latest
+
+````
+
+## Feature sviluppate
+
+- Possibilità di avere più adesivi preformati in un foglio A4 per semplificare le operazioni di stampa
+- Creazione di immagine per container
+
 ## Contributi
 Accogliamo con favore i contributi! Per contribuire, seguire questi passaggi:
 1. Fare un fork del repository
