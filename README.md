@@ -1,16 +1,16 @@
-### Genos-A-QR-Code-Serial-Generator 
+## Genos-A-QR-Code-Serial-Generator 
 
-## Panoramica
+### Panoramica
 Questo progetto è stato realizzato per automatizzare la creazione di adesivi con QR Code differenti. 
 Il template dell'adesivo è customizzabile; è possibile compilare il file seriali.txt con un valore differente per ogni QR Code.
 
-## Installazione
+### Installazione
 Per installare il progetto, seguire questi passaggi:
 1. Clonare il repository: `git clone https://github.com/FrancescoZanti/Genos---A-QR-Code-Serial-Generator.git Genos`
 2. Navigare nella directory del progetto: `cd Genos`
 3. Installare le dipendenze: `pip install -r requirements.txt`
 
-## Utilizzo
+### Utilizzo
 Per utilizzare il progetto, seguire questi passaggi:
 1.  Compilare il file "seriali.txt" con un valore (numero, URL) diverso per ogni riga
 2.  Avviare lo script `python main.py`
@@ -18,7 +18,7 @@ Per utilizzare il progetto, seguire questi passaggi:
 
 <img src="docs/image.png" alt="esempio adesivo" width="200"/>
 
-## Utilizzo con Podman
+### Utilizzo con Podman
 
 Prima creare l'immagine:
 
@@ -36,12 +36,12 @@ podman run --rm  -v $(pwd)/adesivi_output/:/app/adesivi_output:Z -v $(pwd)/seria
 
 ````
 
-## Feature sviluppate
+### Feature sviluppate
 
 - Possibilità di avere più adesivi preformati in un foglio A4 per semplificare le operazioni di stampa
 - Creazione di immagine per container
 
-## Contributi
+### Contributi
 Accogliamo con favore i contributi! Per contribuire, seguire questi passaggi:
 1. Fare un fork del repository
 2. Creare un nuovo branch: `git checkout -b [nome del branch]`
