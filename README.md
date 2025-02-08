@@ -16,7 +16,15 @@ Per utilizzare il progetto, seguire questi passaggi:
 2.  Avviare lo script `python main.py`
 3.  Visionare il risultato nella cartella "adesivi_output"
 
-<img src="docs/image.png" alt="esempio adesivo" width="200"/>
+<figure>
+<img src="docs/adesivo_a6.png" alt="esempio adesivo" width="200"/>
+<figcaption> Esempio adesivo A6 </figcaption>
+</figure>
+<br>
+<figure>
+<img src="docs/adesivi_a4.png" alt="esempio adesivo" width="200"/>
+<figcaption> Esempio adesivo A4 preformato </figcaption>
+</figure>
 
 ### Utilizzo con Podman
 
